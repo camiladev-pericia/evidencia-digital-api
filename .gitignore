@@ -1,0 +1,28 @@
+# Dependências do Node (Pesado e desnecessário no GitHub)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Segurança e Credenciais (CRÍTICO: Nunca suba suas senhas)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos do Sistema Operacional (específico para seu Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Arquivos do VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Logs do Banco de Dados e Logs de Debug
+*.log
+logs/
