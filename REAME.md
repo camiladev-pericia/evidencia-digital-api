@@ -25,9 +25,8 @@ Crypto (Geração de Hash Forense)
 
 Dotenv (Proteção de Variáveis de Ambiente)
 
-MétodoRotaDescriçãoAcessoGET/evidenciasLista todas as evidências com paginaçãoPrivado (JWT)GET/evidencias/:idDetalhes de uma evidência e conferência de HASHPrivado (JWT)POST/evidenciasCadastro de nova evidência (Cadeia de Custódia)Privado (JWT)PUT/evidencias/:idAtualização de metadados da evidênciaPrivado (JWT)DELETE/evidencias/:idRemoção de registro do sistemaPrivado (JWT)
 
-Método        Rota                            Descrição                                    Acesso
+Método   |     Rota          |                  Descrição                         |           Acesso
 **GET**      /evidencias        Lista todas as evidências com paginação                  Privado(JWT)
 **GET**      /evidencias/:id    Detalhes de uma evidência e conferência de HASH          Privado(JWT)
 **POST**     /evidencias        Cadastro de nova evidência (Cadeia de Custódia)          Privado(JWT)
