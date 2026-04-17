@@ -26,10 +26,10 @@ Crypto (Geração de Hash Forense)
 Dotenv (Proteção de Variáveis de Ambiente)
 
 
-| Método | Rota | Descrição | Autenticação |
+| Método | Rota | Descrição | Acesso |
 |:--- |:--- |:--- |:---:|
-| **POST** | `/auth/login` | Realiza o login e retorna o Token JWT | ❌ |
-| **GET** | `/evidencias` | Lista todas as evidências cadastradas | ✅ |
-| **POST** | `/evidencias` | Cadastra uma nova evidência digital | ✅ |
-| **GET** | `/evidencias/:id` | Detalhes de uma evidência específica e seu HASH | ✅ |
-| **DELETE** | `/evidencias/:id` | Remove uma evidência do sistema | ✅ |
+| **POST** | `/auth/login` | Realiza o login e retorna o Token JWT | 🔐 Privado |
+| **GET** | `/evidencias` | Lista todas as evidências cadastradas | 🔐 Privado |
+| **POST** | `/evidencias` | Cadastra uma nova evidência digital | 🔐 Privado |
+| **GET** | `/evidencias/:id` | Detalhes de uma evidência específica e seu HASH | 🔐 Privado |
+| **DELETE** | `/evidencias/:id` | Remove uma evidência do sistema | 🔐 Privado |
