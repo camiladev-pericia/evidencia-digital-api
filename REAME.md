@@ -27,8 +27,13 @@ Dotenv (Proteção de Variáveis de Ambiente)
 
 
 Método   |     Rota          |                  Descrição                         |           Acesso
-**GET**      /evidencias        Lista todas as evidências com paginação                  Privado(JWT)
-**GET**      /evidencias/:id    Detalhes de uma evidência e conferência de HASH          Privado(JWT)
-**POST**     /evidencias        Cadastro de nova evidência (Cadeia de Custódia)          Privado(JWT)
-**PUT**      /evidencias/:id    Atualização de metadados da evidência                    Privado(JWT)
-**DELETE**   /evidencias/:id    Remoção de registro do sistema                           Privado (JWT)
+
+**GET**   |   /evidencias    |    Lista todas as evidências com paginação         |         Privado(JWT)
+
+**GET**   |   /evidencias/:id  |  Detalhes de uma evidência e conferência de HASH     |     Privado(JWT)
+
+**POST**  |   /evidencias    |    Cadastro de nova evidência (Cadeia de Custódia)     |     Privado(JWT)
+
+**PUT**   |   /evidencias/:id  |  Atualização de metadados da evidência         |           Privado(JWT)
+
+**DELETE** |  /evidencias/:id  |  Remoção de registro do sistema             |              Privado (JWT)
